@@ -1,8 +1,64 @@
 //@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900&display=swap");//
 
 @font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff");
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Regular.woff2") format("woff2"), url("../fonts/Manrope-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Medium.woff2") format("woff2"), url("../fonts/Manrope-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-SemiBold.woff2") format("woff2"), url("../fonts/Manrope-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Bold.woff2") format("woff2"), url("../fonts/Manrope-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-ExtraBold.woff2") format("woff2"), url("../fonts/Manrope-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Bold.woff2") format("woff2"), url("../fonts/DMSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -10,10 +66,10 @@
 
 // основной шрифт и размер //
 
-$fontFamily: "Poppins", sans-serif;
+$fontFamily: "Manrope", sans-serif;
 $fontWeight: 400;
 $fontSize: 16px;
-$mainColor: #666666;
+$mainColor: #333333;
 
 @import "_null";
 
@@ -39,20 +95,20 @@ html {
 }
 
 [class*="__container"] {
-  max-width: 1230px; // сначала контейнер был 1200 как на макете, стал 1230 изза padding 30px
+  max-width: 1200px; // сначала контейнер был 1170 как на макете, стал 1200 изза padding 30px
   margin: 0px auto;
   padding: 0px 15px;
-  @media (max-width: 1200px) {
-    // max-width: 970px;
+  @media (max-width: 1199.98px) {
+    max-width: 970px;
   }
   @media (max-width: 1087px) {
     // max-width: 970px;
   }
   @media (max-width: 991.98px) {
-    // max-width: 750px;
+    max-width: 750px;
   }
   @media (max-width: 767.98px) {
-    // max-width: none;
+    max-width: none;
   }
 }
 
