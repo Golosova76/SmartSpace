@@ -312,7 +312,7 @@ html {
       -ms-flex-align: start;
           align-items: flex-start;
 }
-@media (max-width: 1999.98px) {
+@media (max-width: 1199.98px) {
   .body-main-block {
     display: block;
   }
